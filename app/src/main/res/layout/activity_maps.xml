@@ -1,0 +1,33 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:background="@drawable/gradient_background"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="363dp"
+        tools:context="com.projeto.bar.searchBar.MapsActivity" />
+
+    <TextView
+        android:id="@+id/nomeBarText"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:minLines="2"
+        android:padding="2dp"
+        android:text="NOME"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+</LinearLayout>

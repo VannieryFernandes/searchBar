@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context="com.projeto.bar.searchBar.Informacao"
+    tools:layout="@layout/content_informacao" >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/coloerMarrom"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/ic_launcher" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/coloerMarrom"
+            app:srcCompat="@android:drawable/star_big_on" />
+
+        <TextView
+            android:id="@+id/nomeBarText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="1"
+            android:textAlignment="center"
+
+            android:padding="5dp"
+            android:text="NOME"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:background="@color/coloerMarrom"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+<TextView
+    android:id="@+id/cityText"
+    android:layout_width="372dp"
+    android:layout_height="wrap_content"
+    android:minLines="1"
+    android:padding="5dp"
+    android:text="CITY"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/streetText"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:minLines="1"
+        android:padding="5dp"
+        android:text="Street"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0f0f0f" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="@color/coloerMarrom"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:minLines="1"
+        android:padding="5dp"
+        android:text="EMAIL"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/coloerMarrom"
+        app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <TextView
+        android:id="@+id/phoneText"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:minLines="1"
+        android:padding="5dp"
+        android:text="phone"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+
